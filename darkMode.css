@@ -1,0 +1,133 @@
+.projects-tile .projects-tile__title {
+  color: #f5faff !important;
+}
+
+.projects-tile p.projects-tile__description {
+  color: #c8d2e4 !important;
+}
+
+.projects-list-item-status--color-green .projects-list-item-status__label {
+  color: #13ce53 !important;
+}
+:root {
+  --colors-backgroundPrimary: #151616 !important;
+  --colors-backgroundSecondary: #181818 !important;
+
+  --colors-decorativeSurfaceTwo: #0f3262 !important;
+
+  --colors-textColorPrimary: #c4d7ed !important;
+  --colors-textColorSecondary: #91a1b5 !important;
+  --colors-textColorInverse: #fafafa !important;
+
+  --colors-semanticsPositiveDarker: #13ce53 !important;
+  --colors-textColorPositive: # !important;
+  --colors-iconColorPositive: #13ce53 !important;
+  --colors-logoDark: #13ce53 !important;
+  --colors-logoLight: #121e18 !important;
+
+  --colors-borderColorLight: #3d3d3d !important;
+  --colors-surfaceDefault: #151616 !important;
+  --colors-surfaceOnSurface: #0b0b0b !important;
+  --colors-surfaceDefaultHovered: #212121 !important;
+  --colors-surfaceDefaultPressed: #313131 !important;
+
+  --colors-textColorInteractionPrimaryActive: #65a1e5 !important;
+  --colors-textColorInteractionPrimary: #65a1e5 !important;
+  --colors-surfaceInteractionPrimary: #6db0fc !important;
+  --colors-textColorHighlight: #ce4fdf !important;
+
+  --colors-borderColorMedium: #5d6266 !important;
+
+  --colors-iconColorSecondary: #8c9aaa !important;
+
+  /* --colors-backgroundPrimary: #ffffff;
+  --colors-backgroundSecondary: #fafafa;
+  --colors-backgroundOverlay: #0000004d;
+  --colors-backgroundGradientePositiveLight: linear-gradient(
+    110.21deg,
+    #8bcbb2 0%,
+    #c6dadc 100%
+  );
+  --colors-backgroundGradienteNeutralMedium: linear-gradient(
+    110.21deg,
+    #9ca8bb 0%,
+    #9ca8bb00 100%
+  );
+  --colors-backgroundGradienteNeutralDark: linear-gradient(
+    110.21deg,
+    #3d495c 0%,
+    #9ca8b9 100%
+  );
+  --colors-textColorPrimary: #3e4854;
+  --colors-textColorSecondary: #565f6a;
+  --colors-textColorInverse: #ffffff;
+  --colors-textColorDisabled: #989fa6;
+  --colors-textColorCritical: #8a1538;
+  --colors-textColorCriticalLighter: #b51d49;
+  --colors-textColorPositive: #065220;
+  --colors-textColorWarning: #643f00;
+  --colors-textColorHighlight: #771884;
+  --colors-textColorInteractionPrimary: #075bbb;
+  --colors-textColorInteractionPrimaryActive: #094493;
+  --colors-iconColorPrimary: #3e4854;
+  --colors-iconColorSecondary: #565f6a;
+  --colors-iconColorInverse: #ffffff;
+  --colors-iconColorDisabled: #989fa6;
+  --colors-iconColorPositive: #065220;
+  --colors-iconColorCritical: #8a1538;
+  --colors-iconColorWarning: #643f00;
+  --colors-iconColorInteractionPrimary: #075bbb;
+  --colors-iconColorActive: #094493;
+  --colors-borderColorPrimary: #565f6a;
+  --colors-borderColorSecondary: #707881;
+  --colors-borderColorMedium: #d0d5da;
+  --colors-borderColorLight: #eff1f4;
+  --colors-borderColorDark: #323c48;
+  --colors-borderColorDisabled: #eff1f4;
+  --colors-borderColorPositive: #1db702;
+  --colors-borderColorPositiveLight: #a3e596;
+  --colors-borderColorCritical: #8a1538;
+  --colors-borderColorCriticalMedium: #e22859;
+  --colors-borderColorCriticalLight: #ff9ea8;
+  --colors-borderColorWarning: #ecaf00;
+  --colors-borderColorInteractionPrimary: #075bbb;
+  --colors-borderColorFocus: #771884;
+  --colors-semanticsCritical: #b51d49;
+  --colors-semanticsCriticalLighter: #ff9ea8;
+  --colors-semanticsCriticalMedium: #b51d49;
+  --colors-semanticsCriticalDarker: #8a1538;
+  --colors-semanticsPositive: #1db702;
+  --colors-semanticsPositiveMedium: #1db702;
+  --colors-semanticsPositiveLighter: #a3e596;
+  --colors-semanticsPositiveDarker: #0c6d18;
+  --colors-semanticsWarning: #ecaf00;
+  --colors-semanticsWarningLighter: #fdcf36;
+  --colors-semanticsWarningDarker: #845300;
+  --colors-semanticsHighlight: #9d1fae;
+  --colors-semanticsHighlightLighter: #ed9cf2;
+  --colors-semanticsHighlightDarker: #771884;
+  --colors-surfaceDefault: #ffffff;
+  --colors-surfaceDefaultHovered: #eff1f4;
+  --colors-surfaceDefaultPressed: #fafafa;
+  --colors-surfaceDisabled: #b4b9c0;
+  --colors-surfaceOnSurface: #fafafa;
+  --colors-surfaceDarker: #1a1b1c;
+  --colors-surfaceTransparent: #ffffff00;
+  --colors-surfaceInteractionPrimary: #075bbb;
+  --colors-surfaceInteractionPrimaryHovered: #094493;
+  --colors-surfaceInteractionPrimaryPressed: #07397a;
+  --colors-surfaceInteractionPrimaryLighter: #e9f1ff;
+  --colors-surfaceInteractionPrimaryLighterHovered: #bdd5ff;
+  --colors-decorativeSurfaceOne: #036b52;
+  --colors-decorativeSurfaceTwo: #094493;
+  --colors-decorativeSurfaceThree: #0376e2;
+  --colors-decorativeSurfaceFour: #c036d0;
+  --colors-decorativeSurfaceFive: #81bdff;
+  --colors-logoLight: #e1f2d5;
+  --colors-logoMedium: #1eb720;
+  --colors-logoDark: #034422;
+  --shadows-shadowBase: 0 1px 4px 0 #0000001a;
+  --shadows-shadowMd: 0 4px 8px 0 #0000001a;
+  --shadows-shadowLg: 0 8px 16px 0 #0000001a;
+  --shadows-shadowInner: 0 2px 4px 0 #0000001a; */
+}
